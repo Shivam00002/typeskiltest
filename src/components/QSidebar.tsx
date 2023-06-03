@@ -74,9 +74,11 @@ const QSidebar: React.FC<QSidebarProps> = ({ onQuestionClick }) => {
               <div key={el.id} className="py-0 grid border">
                 <button
                   onClick={() => {
+                   
                     
                     onQuestionClick(el.id);
                     isClicked(el.id);
+                    
                     setSelectedId(el.id);
                   }}
                   className={`bg-gray-500 px-0 py-0 w-11 h-7 grid place-content-center rounded text-[white] `}
