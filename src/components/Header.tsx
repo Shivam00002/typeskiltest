@@ -23,6 +23,8 @@ const Header: React.FC = () => {
         </h2>
       </div>
 
+
+
       <div>
         <Counter />
       </div>
