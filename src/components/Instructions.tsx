@@ -17,6 +17,7 @@ const Instructions: React.FC<InstructionsProps> = ({ setIsActive }) => {
     setIsActive(true);
   };
 
+
   return (
     <div className="w-full h-28 grid grid-cols-4 gap-x-3 py-2 px-4 mt-12">
       <div className="col-span-4 md:col-span-3">
