@@ -18,6 +18,7 @@ const Counter: React.FC = () => {
 
 
 
+
     return () => {
       clearInterval(timer);
     };
